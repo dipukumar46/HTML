@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            background: #000;
+        }
+        .ram{
+            color: rgb(249, 93, 9);
+            font-size: 60px;
+        }
+        .main{
+            width: 100%;
+            height: 200px;
+            margin-top: 150px;
+            position: relative;
+        }
+        .m{
+            position: absolute;
+            left: -25px;
+            font-size: large;
+            color: orange;
+            font-size: large;
+            animation: meet 18s
+            ease-in-out;
+        }
+        .a{
+            position: absolute;
+            left: -25px;
+            font-size: large;
+            color: red;
+            animation: meet 22s
+            ease-in-out;
+        }
+        .r{
+            position: absolute;
+            left: -25px;
+            font-size: large;
+            color: rgb(236, 236, 47);
+            animation: meet 26s ease-in-out;
+        }
+        @keyframes meet{
+            from{
+                left: -25px;
+            }
+            to{
+                left: 99%;
+                font-size: 610%;
+                font-style: italic;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ram"><center>Jay Shree Ram</center></div>
+    <div class="main">
+        <div class="m"><h1>M</h1></div>
+        <div class="a"><h1>A</h1></div>
+        <div class="r"><h1>R</h1></div>
+    </div>
+</body>
+</html>
